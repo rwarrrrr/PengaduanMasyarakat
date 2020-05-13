@@ -1,5 +1,5 @@
 ## Pengaduan Masyarakat
-Aplikasi Berbasis Website Sederhana Tentang Pengaduan Masyarakat Menggunakan Laravel + Mysql
+Aplikasi Berbasis Website Sederhana Tentang Pengaduan Masyarakat, Dibuat Menggunakan Laravel + Mysql
 
 ## Fitur Admin
 - Login
