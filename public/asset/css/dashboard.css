@@ -1,0 +1,161 @@
+.wrap{
+	width: 100%;
+	height: 543px;
+	overflow: hidden;
+	position: fixed;
+}
+
+.box{
+	width: 300px;
+	height: 200px;
+	background: rgba(40,57,101);
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	border-radius: 20px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.box-head{
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 10px;
+	background: #1161ee;
+}
+
+.box-body{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+.box-content1{
+	margin-left: 150px;
+}
+
+.box-content2{
+	margin-left: 550px;
+}
+
+.box-content3{
+	margin-left: 950px;
+}
+
+
+.box-content4{
+	margin-top: 250px;
+	margin-left: 150px;
+}
+
+.box-content5{
+	margin-top: 250px;
+	margin-left: 550px;
+}
+
+.box-content6{
+	margin-top: 250px;
+	margin-left: 950px;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 300px){
+	.fill{
+		position: absolute;
+		z-index: 10;
+	}
+	
+	.wrap{
+		display: block;
+		overflow: auto;
+	}
+
+	.box{
+		position: relative;
+	}
+	
+	.box-content1{
+		margin-left: 100px;
+	}
+
+	.box-content2{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+	.box-content3{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+
+	.box-content4{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+	.box-content5{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+	.box-content6{
+		margin-top: 100px;
+		margin-left: 100px;
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+	.fill{
+		position: absolute;
+		z-index: 10;
+	}
+
+	.wrap{
+		display: inline-block;
+		overflow: auto;
+	}
+
+	.box{
+		position: relative;
+		display: inline-block;
+	}
+	
+	.box-content1{
+		margin-left: 100px;
+	}
+
+	.box-content2{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+	.box-content3{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+
+	.box-content4{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+
+	.box-content5{
+		margin-top: 100px;
+		margin-left: 100px;
+		margin-bottom: 100px;
+	}
+
+	.box-content6{
+		margin-top: 100px;
+		margin-left: 100px;
+		margin-bottom: 100px;
+	}	
+
+}

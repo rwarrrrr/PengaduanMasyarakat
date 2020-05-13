@@ -1,0 +1,132 @@
+.register{
+  margin-left: 70px;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;  
+}
+
+.fill{
+  margin-left: 20px;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;  
+}
+
+.pulse{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 0.8em 1.6em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.add,.raise,td button{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+
+.close {
+  --color: #ff7f82;
+  --hover: #ff7f82;
+}
+
+.register {
+  --color: #1973bc;
+  --hover: #1973bc;
+}
+
+.fill {
+  --color: #ef6eae;
+  --hover: #ef8f6e;
+}
+
+.add {
+  --color: #1973bc;
+  --hover: #1973bc;
+}
+
+.pulse {
+  --color: #ef6eae;
+  --hover: #ef8f6e;
+}
+
+.pulse,.add,.fill,.register,.raise,td button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+.pulse,.add,.fill,.register,.raise,td button:hover, .pulse,.add,.fill,.register,.raise,td button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+.close:hover,
+.close:focus {
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.register {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.register:hover, .register:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.add {
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.add:hover, .add:focus {
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}

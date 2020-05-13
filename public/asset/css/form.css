@@ -1,0 +1,35 @@
+.title{
+    margin-top: 70px;
+    margin-left: 47%;
+    color: white;
+    text-transform: uppercase;
+}
+
+form{
+	padding: 10px;
+}
+
+form label{
+	font-size: 20px;
+}
+
+
+form input{
+	width: 100%;
+	color:#fff;
+	display:block;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+
+form select{
+	width: 100%;
+	color:black;
+	display:block;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
