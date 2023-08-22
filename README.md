@@ -28,8 +28,6 @@ Aplikasi Berbasis Website Sederhana Tentang Pengaduan Masyarakat, Dibuat Menggun
 ![petugas-adu](https://user-images.githubusercontent.com/43676356/81760667-0d0a5980-94f2-11ea-8086-ff759f4fcfa8.PNG)
 ![masyarakat-adu](https://user-images.githubusercontent.com/43676356/81760664-0bd92c80-94f2-11ea-8689-33bbe65b28b2.PNG)
 
-## Author
-Riksa Paradila Pasa
 
 ## License
 MIT
